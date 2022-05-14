@@ -48,6 +48,11 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    word = "hello"
+    mask = 0
+    mask |= 1 << (ord(word[1]) - ord('a'));
+    print(ord(word[1]) - ord('a'))
+    print(mask | 1 << 4)
     str = "hello 123"
     print(bin(2))
     print(bin(1))
