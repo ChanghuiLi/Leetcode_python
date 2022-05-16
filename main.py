@@ -2,6 +2,9 @@
 
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+import math
+
+
 def findRepeatNumber(nums) -> int:
     print(range(len(nums)))
     for i in range(len(nums)):
@@ -48,6 +51,10 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    for i in range(101,100):
+        print(i)
+    if (-10000000 < -math.inf):
+        print("hel")
     word = "hello"
     mask = 0
     mask |= 1 << (ord(word[1]) - ord('a'));
